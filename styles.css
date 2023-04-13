@@ -1,0 +1,88 @@
+@font-face {
+    src: url("Pokemon Solid.ttf");
+    font-family: pokemon-hollow;
+}
+
+body{
+    margin: 20px;
+    font-family: pokemon-hollow;
+    background-image: url("Images/psychic-video-final.webp");
+    background-size: cover;
+}
+
+#pokeball{
+    text-align: center;
+}
+
+.pokeball-img{
+    width: 40px;
+    margin-top: 5px;
+}
+
+.sabrina-picture{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    object-position: 0 0;
+    margin-top: -8px;
+    border-bottom: 6px solid white;
+}
+
+.items-all{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/355/640/small/dark-carbon-fiber-background-with-abstract-black-metallic-frame-with-gold-stripes-free-vector.jpg");
+    background-size: cover ;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    /*background: #121212;*/
+    width: 500px;
+    height: 300px;
+    margin: 45px auto;
+    border: 5px solid gray;
+}
+
+.items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ctn{
+    color: dodgerblue;
+}
+
+#contact{
+    color: antiquewhite;
+    text-shadow: 5px 5px 5px black;
+    margin-top: 30px;
+}
+
+.info{
+    margin: -40px 0;
+    text-align: center;
+    color: yellow;
+    /*text-shadow: 5px 5px 5px black;*/
+    text-shadow: 1px 1px 0 blue,
+    -1px 1px 0 blue,
+    1px -1px 0 blue,
+    -1px -1px 0 blue,
+    0px 1px 0 blue,
+    0px -1px 0 blue,
+    -1px 0px 0 blue,
+    1px 0px 0 blue,
+    2px 2px 0 blue,
+    -2px 2px 0 blue,
+    2px -2px 0 blue,
+    -2px -2px 0 blue,
+    0px 2px 0 blue,
+    0px -2px 0 blue,
+    -2px 0px 0 blue,
+    2px 0px 0 blue,
+    1px 2px 0 blue,
+    -1px 2px 0 blue,
+    1px -2px 0 blue,
+    -1px -2px 0 blue,
+    2px 1px 0 blue,
+    -2px 1px 0 blue,
+    2px -1px 0 blue,
+    -2px -1px 0 blue;
+    /*border: 1px dotted gray;*/
+}
